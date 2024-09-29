@@ -38,18 +38,18 @@ function addProjectIcons() {
     const projects = [
         {
             icon: 'icons/e-commerce.png',
-            link: 'https://github.com/Ellieshz/ecommerce-data-analysis', // Update with actual link
-            explanation: 'Project 1: Description of your first project goes here.'
+            link: 'https://github.com/Ellieshz/ecommerce-data-analysis', 
+            explanation: 'This project analyzes Brazilian e-commerce data to uncover consumer behavior and purchasing patterns. The analysis uses a public dataset and is conducted using Jupyter Notebooks.'
         },
         {
-            icon: 'icons/e-commerce.png',
-            link: 'https://github.com/Ellieshz/ecommerce-data-analysis', // Update with actual link
-            explanation: 'Project 2: Description of your second project goes here.'
+            icon: 'icons/mental-health.png',
+            link: 'https://github.com/Ellieshz/mental-health-analysis',
+            explanation: 'This project focuses on analyzing mental health data, particularly exploring patterns in depression. The analysis is conducted using R on mental health statistics.'
         },
         {
-            icon: 'icons/e-commerce.png',
-            link: 'https://github.com/Ellieshz/ecommerce-data-analysis', // Update with actual link
-            explanation: 'Project 3: Description of your third project goes here.'
+            icon: 'icons/amazon.png',
+            link: 'https://github.com/Ellieshz/amazon-sales-data-analysis',
+            explanation: 'This project analyzes Amazon sales data with a focus on fairness and customer behavior patterns. The analysis includes identifying biases and trends using SQL queries and visualizations through Tableau.'
         }
     ];
 
