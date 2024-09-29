@@ -3,14 +3,9 @@ function setCurrentYear() {
     document.getElementById('year').textContent = currentYear;
 }
 
-// Call the function to set the current year
 setCurrentYear();
 
 function setAbout() {
-    // const aboutSection = document.getElementById('about');
-    // const aboutText = document.createElement('p');
-    // aboutText.textContent = `I'm Ellie Shilin Zhang, a dedicated marketing analyst with a strong foundation in e-commerce, digital marketing, and data analytics. With a Master’s degree in Global Marketing Management from Boston University and diverse professional experience across industries, I’m passionate about leveraging data-driven strategies to drive business growth. My expertise ranges from customer segmentation and mobile optimization to managing viral content campaigns. I thrive on utilizing tools like Python, R, and Tableau to extract insights and guide decision-making, always with an eye toward innovation and societal well-being. I'm fluent in English, Mandarin, and Cantonese, and continuously work on projects that explore the intersection of technology and ethics, such as analyzing consumer behavior and addressing biases in recommendation systems.`;
-    // aboutSection.appendChild(aboutText);
     const aboutSection = document.getElementById('about');
     
     // Array of paragraph content

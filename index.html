@@ -42,34 +42,34 @@
             bottom: 0;
         }
         button {
-        background-color: #a87f1f; /* Bootstrap success green */
-        color: white;
-        border: none;
-        border-radius: 25px; /* Fully rounded */
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        transition: transform 0.3s ease;
+            background-color: #a87f1f; /* Bootstrap success green */
+            color: white;
+            border: none;
+            border-radius: 25px; /* Fully rounded */
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
         }
 
         button:hover {
             transform: scale(1.05); /* Slightly enlarge on hover */
         }
         section {
-    margin: 20px;
-    text-align: center; /* Center aligns all text within the section */
-}
-.project-card {
-    background-color: #fff;       /* White background */
-    border: 1px solid #ccc;       /* Light grey border */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);   /* Subtle shadow */
-    border-radius: 10px;          /* Rounded corners */
-    padding: 20px;                /* Padding inside the card */
-    margin: 10px;                 /* Space between cards */
-    width: calc(100% - 40px);     /* Width accounting for padding */
-    box-sizing: border-box;       /* Ensures padding is included in width */
-    text-align: center;           /* Center-align the text and content inside the card */
-}
+            margin: 20px;
+            text-align: center;
+        }
+        .project-card {
+            background-color: #fff;      
+            border: 1px solid #ccc;      
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);   
+            border-radius: 10px;          
+            padding: 20px;
+            margin: 10px;
+            width: calc(100% - 40px); 
+            box-sizing: border-box;
+            text-align: center;
+        }
 
 
     </style>
@@ -92,7 +92,6 @@
         </div>
     </header>
 
-    <!-- Navigation menu -->
     <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -105,17 +104,14 @@
     <section id="projects">
         <h2 style="display: flex; justify-content: center; gap: 20px;">Projects</h2>
         <p>Please click the icon below to learn more about the project!</p>
-        <div id="project-icons" style="display: flex; justify-content: space-around;"> <!-- Flexbox for layout -->
-            <!-- The project icons will be added here -->
+        <div id="project-icons" style="display: flex; justify-content: space-around;">
         </div>
     </section>
 
-    <!-- Footer section -->
     <footer>
         <p>&copy; <span id="year"></span> My Website. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript to dynamically generate the current year -->
     <script src= "website.js">
     </script>
 
