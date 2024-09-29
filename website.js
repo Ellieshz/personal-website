@@ -15,10 +15,11 @@ function setAbout() {
     
     // Array of paragraph content
     const paragraphs = [
-        `I'm Ellie Shilin Zhang, a dedicated marketing analyst with a strong foundation in e-commerce, digital marketing, and data analytics.`,
-        `With a Master’s degree in Global Marketing Management from Boston University and diverse professional experience across industries, I’m passionate about leveraging data-driven strategies to drive business growth.`,
-        `My expertise ranges from customer segmentation and mobile optimization to managing viral content campaigns. I thrive on utilizing tools like Python, R, and Tableau to extract insights and guide decision-making, always with an eye toward innovation and societal well-being.`,
-        `I'm fluent in English, Mandarin, and Cantonese, and continuously work on projects that explore the intersection of technology and ethics, such as analyzing consumer behavior and addressing biases in recommendation systems.`
+        `Welcome! I’m Ellie, where deep cultural insights meet data-driven precision.`,
+        `Trained in Cinema & Media Studies, I excel in observing societal trends and understanding the impact of technology on society.`,
+        `With substantial industry experience in digital marketing and data analysis, I develop feasible strategies that transform complex data into valuable insights. I thrive on utilizing tools like Python, R, and Tableau to extract insights and guide decision-making, always with an eye toward innovation and societal well-being.`,
+        `I'm fluent in English, Mandarin, and Cantonese, and continuously work on projects that explore the intersection of technology and ethics.`,
+        `View my CV to see my professional trajectory and check out my projects to see these strategies in action.`
     ];
 
     // Loop through the array and create a <p> element for each paragraph
@@ -47,7 +48,7 @@ function addProjectIcons() {
             explanation: 'This project focuses on analyzing mental health data, particularly exploring patterns in depression. The analysis is conducted using R on mental health statistics.'
         },
         {
-            icon: 'icons/amazon.png',
+            icon: 'icons/recommendation.png',
             link: 'https://github.com/Ellieshz/amazon-sales-data-analysis',
             explanation: 'This project analyzes Amazon sales data with a focus on fairness and customer behavior patterns. The analysis includes identifying biases and trends using SQL queries and visualizations through Tableau.'
         }
@@ -57,6 +58,7 @@ function addProjectIcons() {
     projects.forEach(project => {
         // Create a container for each project
         const projectContainer = document.createElement('div');
+        projectContainer.className = 'project-card';
         projectContainer.style.textAlign = 'center'; // Center align text
         
         // Create an anchor element for the project icon

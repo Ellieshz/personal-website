@@ -55,6 +55,21 @@
         button:hover {
             transform: scale(1.05); /* Slightly enlarge on hover */
         }
+        section {
+    margin: 20px;
+    text-align: center; /* Center aligns all text within the section */
+}
+.project-card {
+    background-color: #fff;       /* White background */
+    border: 1px solid #ccc;       /* Light grey border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);   /* Subtle shadow */
+    border-radius: 10px;          /* Rounded corners */
+    padding: 20px;                /* Padding inside the card */
+    margin: 10px;                 /* Space between cards */
+    width: calc(100% - 40px);     /* Width accounting for padding */
+    box-sizing: border-box;       /* Ensures padding is included in width */
+    text-align: center;           /* Center-align the text and content inside the card */
+}
 
 
     </style>
@@ -63,7 +78,7 @@
 
     <!-- Header section -->
     <header>
-        <h1>Shilin Zhang</h1>
+        <h1>Ellie Shilin Zhang</h1>
         <div id="header-icons" style="display: flex; justify-content: center; gap: 20px;">
             <a href="https://github.com/Ellieshz" target="_blank"> 
                 <img src="about-icons/github.png" alt="GitHub" style="width: 36px; height: 36px;">
@@ -84,11 +99,11 @@
     </nav>
 
     <section id="about">
-        <h2>About Me</h2>
+        <h2 style="display: flex; justify-content: center; gap: 20px;">About Me</h2>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 style="display: flex; justify-content: center; gap: 20px;">Projects</h2>
         <p>Please click the icon below to learn more about the project!</p>
         <div id="project-icons" style="display: flex; justify-content: space-around;"> <!-- Flexbox for layout -->
             <!-- The project icons will be added here -->
